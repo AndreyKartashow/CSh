@@ -1,0 +1,15 @@
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\obj\Debug\net6.0\OOPtest.csproj.AssemblyReference.cache
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\obj\Debug\net6.0\OOPtest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\obj\Debug\net6.0\OOPtest.AssemblyInfoInputs.cache
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\obj\Debug\net6.0\OOPtest.AssemblyInfo.cs
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\obj\Debug\net6.0\OOPtest.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\bin\Debug\net6.0\OOPtest.exe
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\bin\Debug\net6.0\OOPtest.deps.json
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\bin\Debug\net6.0\OOPtest.runtimeconfig.json
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\bin\Debug\net6.0\OOPtest.dll
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\bin\Debug\net6.0\OOPtest.pdb
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\obj\Debug\net6.0\OOPtest.dll
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\obj\Debug\net6.0\refint\OOPtest.dll
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\obj\Debug\net6.0\OOPtest.pdb
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\obj\Debug\net6.0\OOPtest.genruntimeconfig.cache
+C:\Users\Андрей\Desktop\Практические по ВС\Work C# введение в программирование\Work-C-\OOPtest\obj\Debug\net6.0\ref\OOPtest.dll

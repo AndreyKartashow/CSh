@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Test-Quater1/1.0.0": {
+        "runtime": {
+          "Test-Quater1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Test-Quater1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

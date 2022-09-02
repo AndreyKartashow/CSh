@@ -1,0 +1,16 @@
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\bin\Debug\terminal8x8.png
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\bin\Debug\Roguelike.exe.config
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\bin\Debug\Roguelike.exe
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\bin\Debug\Roguelike.pdb
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\bin\Debug\OpenTK.dll
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\bin\Debug\RLNET.dll
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\bin\Debug\RogueSharp.dll
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\bin\Debug\OpenTK.xml
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\bin\Debug\OpenTK.dll.config
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\obj\Debug\Roguelike.csproj.AssemblyReference.cache
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\obj\Debug\Roguelike.csproj.SuggestedBindingRedirects.cache
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\obj\Debug\Roguelike.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\obj\Debug\Roguelike.csproj.CopyComplete
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\obj\Debug\Roguelike.exe
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\obj\Debug\Roguelike.pdb
+C:\Users\Андрей\Desktop\Практические по ВС\Roguelike Game in C#\Roguelike\bin\Debug\RogueSharp.xml
