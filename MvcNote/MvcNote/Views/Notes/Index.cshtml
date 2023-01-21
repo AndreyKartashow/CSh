@@ -1,0 +1,91 @@
+﻿<link type="text/css" href="~/Style/Table.css." rel="stylesheet" />
+@model MvcNote.Models.NoteProjectViewModel
+
+@{
+    ViewData["Title"] = "Notes";
+}
+
+<h1>Your Notes</h1>
+
+<p>
+    <a asp-action="Create">Create New Task</a>
+</p>
+
+<form asp-controller="Notes" asp-action="Index" method="get">
+    <p>
+        <select asp-for="ProjectOfNote" asp-items="Model.Projects">
+        <option value="">All</option>
+        </select>
+
+        Title: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr class="TableColumName">
+            <th class="ColumId", style="vertical-align:middle">
+                @Html.DisplayNameFor(model => model.ListNote[0].Id)
+            </th>
+            <th class="ColumName", style="vertical-align:middle">
+                @Html.DisplayNameFor(model => model.ListNote[0].NameProject)
+            </th>
+            <th class="ColumTime", style="vertical-align:middle">
+                @Html.DisplayNameFor(model => model.ListNote[0].Times)
+            </th>
+            <th class="ColumTime", style="vertical-align:middle">
+                @Html.DisplayNameFor(model => model.ListNote[0].StartTimes)
+            </th>
+            <th class="ColumTime", style="vertical-align:middle">
+                @Html.DisplayNameFor(model => model.ListNote[0].EndTimes)
+            </th>
+            <th class="ColumName", style="vertical-align:middle">
+                @Html.DisplayNameFor(model => model.ListNote[0].NameTask)
+            </th>
+            <th class="ColumComment", style="vertical-align:middle">
+                @Html.DisplayNameFor(model => model.ListNote[0].Comment)
+            </th>
+            <th class="ColumTime", style="vertical-align:middle">
+                @Html.DisplayNameFor(model => model.ListNote[0].DataCreate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.ListNote) {
+        <tr class="ContentTable">
+            <td class="ColumId", style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td class="ColumName", style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.NameProject)
+            </td>
+            <td class="ColumTime", style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.Times)
+            </td>
+            <td class="ColumTime", style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.StartTimes)
+            </td>
+            <td class="ColumTime", style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.EndTimes)
+            </td>
+            <td class="ColumName", style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.NameTask)
+            </td>
+            <td class="ColumComment", style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.Comment)
+            </td>
+            <td class="ColumTime", style="vertical-align:middle">
+                @Html.DisplayFor(modelItem => item.DataCreate)
+            </td>
+            <td id="ColumOptionTable">
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> 
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> 
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

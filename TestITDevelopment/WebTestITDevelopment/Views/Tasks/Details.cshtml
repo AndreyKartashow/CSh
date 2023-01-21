@@ -1,0 +1,54 @@
+﻿@model WebTestITDevelopment.Models.TaskNote
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Task</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NameProject)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NameProject)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Times)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Times)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.StartTimes)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StartTimes)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EndTimes)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EndTimes)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NameTask)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NameTask)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Comment)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Comment)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
